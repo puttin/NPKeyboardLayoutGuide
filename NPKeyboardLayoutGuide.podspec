@@ -18,9 +18,9 @@ Pod::Spec.new do |s|
                        DESC
   s.homepage         = "https://github.com/Nodepad/NPKeyboardLayoutGuide"
   s.license          = 'MIT'
-  s.source           = { :git => "https://github.com/Nodepad/NPKeyboardLayoutGuide.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/oleksiikuchma'
   s.author           = { "Oleksii Kuchma" => "nod3pad@gmail.com", "Puttin Wong" => "yzwang.nj@gmail.com" }
+  s.source           = { :git => "https://github.com/Puttin/NPKeyboardLayoutGuide.git", :tag => s.version.to_s }
+  s.social_media_url = 'http://putt.in'
 
   s.platform     = :ios, '6.0'
   s.requires_arc = true
