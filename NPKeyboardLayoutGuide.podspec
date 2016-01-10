@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "NPKeyboardLayoutGuide"
-  s.version          = "1.0.1.rc1"
+  s.version          = "1.0.2"
   s.summary          = "Add layout guide for keyboard to UIViewController"
   s.description      = <<-DESC
                        Layout guide for keyboard allows indirecty add constraints to keyboard.
@@ -26,9 +26,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
-  s.resource_bundles = {
-    'NPKeyboardLayoutGuide' => ['Pod/Assets/*.png']
-  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
 end
